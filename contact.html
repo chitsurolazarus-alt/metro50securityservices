@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | METRO 50 SECURITY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, shrink-to-fit=no">
+    <title>Contact Us | METRO 50 SECURITY SERVICES</title>
+    <meta name="description" content="Contact METRO 50 SECURITY SERVICES - 24/7 emergency response. Head Office: Stand No 3351, Shayandima Zone 11, Limpopo. Call 076 272 2864.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -12,16 +13,22 @@
 <body>
 
 <!-- PRELOADER -->
-<div class="preloader" id="preloader"><div class="preloader-content"><div class="shield-loader"><div class="shield-icon"><i class="fas fa-shield-alt"></i></div></div><div class="progress-bar-container"><div class="progress-bar" id="progressBar"></div></div></div></div>
+<div class="preloader" id="preloader">
+    <div class="preloader-content">
+        <div class="shield-loader"><div class="shield-icon"><i class="fas fa-shield-alt"></i></div><div class="shield-pulse"></div></div>
+        <div class="progress-bar-container"><div class="progress-bar" id="progressBar"></div></div>
+        <div class="loading-status"><span class="status-text">LOADING CONTACT</span><span class="percentage" id="loadPercent">0%</span></div>
+    </div>
+</div>
 
 <!-- HEADER -->
 <header class="header" id="header">
     <div class="header-top"><div class="container"><div class="header-top-content"><div class="emergency-contact"><i class="fas fa-shield-hal"></i><span>24/7: <a href="tel:0762722864">076 272 2864</a></span></div></div></div></div>
-    <div class="header-main"><div class="container"><nav class="navbar"><div class="logo-wrapper"><a href="index.html"><img src="assets/images/logo.png" alt="METRO 50" class="logo-img"></a></div><ul class="nav-menu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html" class="active">Contact</a></li></ul></nav></div></div>
+    <div class="header-main"><div class="container"><nav class="navbar"><div class="logo-wrapper"><a href="index.html"><img src="assets/images/logo.png" alt="METRO 50" class="logo-img"></a></div><ul class="nav-menu" id="navMenu"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="contact.html" class="active">Contact</a></li></ul><button class="hamburger" id="hamburger"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button></nav></div></div>
 </header>
 
 <!-- PAGE BANNER -->
-<section class="page-banner contact-banner"><div class="banner-overlay"></div><div class="container"><div class="banner-content"><h1>Contact Us</h1></div></div></section>
+<section class="page-banner contact-banner"><div class="banner-overlay"></div><div class="container"><div class="banner-content"><h1 data-aos="fade-up">Contact Us</h1></div></div></section>
 
 <!-- CONTACT SECTION -->
 <section class="contact-page-section">
@@ -37,9 +44,10 @@
             </div>
             <div class="contact-map-side" data-aos="fade-left">
                 <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.123456789!2d28.123456!3d-25.747868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDQ0JzUyLjMiUyAyOMKwMDcnMjQuNCJF!5e0!3m2!1sen!2sza!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <!-- Updated Map: Stand No 3351, Shayandima Zone 11, Limpopo -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.123456789!2d30.4833!3d-22.9833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDU4JzU5LjkiUyAzMMKwMjgnNTkuOSJF!5e0!3m2!1sen!2sza!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="map-caption"><i class="fas fa-map-pin"></i> Body Corporate Moot Heights, Pretoria</div>
+                <div class="map-caption"><i class="fas fa-map-pin"></i> Stand No: 3351, Shayandima Zone 11, Limpopo Province, 0945</div>
             </div>
         </div>
     </div>
@@ -52,12 +60,13 @@
     <div class="footer-bottom">
         <div class="container">
             <p>&copy; 2025 METRO 50 SECURITY SERVICES.</p>
-            <p class="created-by">Created by: <a href="https://www.lcdigitalsolution.co.za/" target="_blank">LC Digital Solution</a></p>
+            <p class="created-by">Created by: <a href="https://www.lcdigitalsolution.co.za/" target="_blank" rel="noopener">LC Digital Solution</a></p>
         </div>
     </div>
 </footer>
 
-<div class="modal" id="bookModal"><div class="modal-overlay"></div><div class="modal-container"><div class="modal-header"><h3>Book Service</h3><button class="modal-close">&times;</button></div><div class="modal-body"><div class="modal-options"><a href="https://wa.me/27672722864" class="modal-option whatsapp-option"><i class="fab fa-whatsapp"></i> WhatsApp</a><a href="mailto:metro50sec@gmail.com" class="modal-option email-option"><i class="far fa-envelope"></i> Email</a></div></div></div></div>
+<!-- MODAL -->
+<div class="modal" id="bookModal"><div class="modal-overlay"></div><div class="modal-container"><div class="modal-header"><h3>Book Service</h3><button class="modal-close">&times;</button></div><div class="modal-body"><div class="modal-options"><a href="https://wa.me/27672722864" class="modal-option whatsapp-option"><div class="option-icon"><i class="fab fa-whatsapp"></i></div><div class="option-content"><h4>WhatsApp</h4><span>076 272 2864</span></div></a><a href="mailto:metro50sec@gmail.com" class="modal-option email-option"><div class="option-icon"><i class="far fa-envelope"></i></div><div class="option-content"><h4>Email</h4><span>metro50sec@gmail.com</span></div></a></div></div></div></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script src="js/main.js"></script>
