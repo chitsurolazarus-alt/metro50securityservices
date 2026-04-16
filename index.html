@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="description" content="METRO 50 SECURITY SERVICES - Premium protection, VIP security, armed response, and comprehensive security solutions across South Africa.">
+    <title>METRO 50 SECURITY | Elite Protection Services</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ==================== PRELOADER / LOADING SCREEN ==================== -->
+<div class="preloader" id="preloader">
+    <div class="preloader-content">
+        <div class="shield-loader">
+            <div class="shield-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="shield-pulse"></div>
+        </div>
+        <div class="logo-loader">
+            <img src="assets/images/logo.png" alt="METRO 50" class="loader-logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <div class="loader-logo-text" style="display: none;">METRO 50</div>
+        </div>
+        <div class="progress-bar-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        <div class="loading-status">
+            <span class="status-text">SECURING CONNECTION</span>
+            <span class="percentage" id="loadPercent">0%</span>
+        </div>
+        <div class="security-badge">
+            <span>PSIRA REGISTERED</span>
+            <span class="dot">•</span>
+            <span>ARMED RESPONSE</span>
+            <span class="dot">•</span>
+            <span>24/7 PROTECTION</span>
+        </div>
+    </div>
+</div>
+
+<!-- ==================== HEADER NAVIGATION ==================== -->
+<header class="header" id="header">
+    <div class="header-top">
+        <div class="container">
+            <div class="header-top-content">
+                <div class="emergency-contact">
+                    <i class="fas fa-shield-hal"></i>
+                    <span>24/7 EMERGENCY: <a href="tel:0762722864">076 272 2864</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo-wrapper">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/images/logo.png" alt="METRO 50 Security" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="logo-text-fallback" style="display: none;">
+                            <span class="logo-text-primary">METRO 50</span>
+                            <span class="logo-text-secondary">SECURITY SERVICES</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item nav-item-btn">
+                        <a href="#" class="btn-book-header" id="bookNowHeader">
+                            <i class="fas fa-calendar-check"></i> BOOK NOW
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- ==================== HERO SECTION ==================== -->
+<section class="hero-section" id="home">
+    <div class="hero-slider">
+        <div class="hero-slide active">
+            <div class="hero-image">
+                <img src="assets/images/hero-bg.jpg" alt="Security Services" onerror="this.parentElement.style.background='linear-gradient(135deg, #0a1f3a 0%, #1a2b7c 50%, #8b1e1e 100%)'">
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="hero-content container">
+                <div class="hero-badge" data-aos="fade-down" data-aos-duration="1000">
+                    <i class="fas fa-star"></i> PSIRA GRADE A CERTIFIED
+                </div>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    METRO 50 <br>
+                    <span class="gradient-text">SECURITY SERVICES</span>
+                </h1>
+                <p class="hero-description" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                    Elite Protection • Armed Response • 24/7 Surveillance
+                </p>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                    Protecting Limpopo, Gauteng & High-Risk Zones Since 2018
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                    <button class="btn btn-primary btn-large" id="heroBookNow">
+                        <i class="fab fa-whatsapp"></i> WhatsApp Book Now
+                    </button>
+                    <a href="contact.html" class="btn btn-outline-light btn-large">
+                        <i class="fas fa-phone-alt"></i> Emergency Contact
+                    </a>
+                </div>
+                <div class="hero-stats" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                    <div class="stat-item">
+                        <span class="stat-number">7+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Clients Protected</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Armed Response</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <a href="#showcase" class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </div>
+</section>
+
+<!-- ==================== IMAGE SHOWCASE SECTION - FULL IMAGES VISIBLE ==================== -->
+<section class="showcase-section" id="showcase">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">OUR CAPABILITIES</span>
+            <h2 class="section-title">Professional <span class="text-red">Equipment & Personnel</span></h2>
+            <p class="section-description">State-of-the-art security infrastructure with highly trained professionals</p>
+        </div>
+        
+        <div class="showcase-grid-full">
+            <!-- Security Uniform 1 -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/uniform1.jpg" alt="Combat Security Uniform" onerror="this.src='https://via.placeholder.com/800x600/1a2b7c/ffffff?text=COMBAT+UNIFORM'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Combat Uniforms</h3>
+                    <p>PSIRA compliant tactical gear for maximum protection in all environments</p>
+                </div>
+            </div>
+            
+            <!-- Security Uniform 2 -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/uniform2.jpg" alt="Tactical Security Wear" onerror="this.src='https://via.placeholder.com/800x600/8b1e1e/ffffff?text=TACTICAL+WEAR'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Tactical Gear</h3>
+                    <p>High-grade protective equipment for all weather conditions</p>
+                </div>
+            </div>
+            
+            <!-- Security Uniform 3 -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/uniform3.jpg" alt="Security Officer Uniform" onerror="this.src='https://via.placeholder.com/800x600/0a2a5e/ffffff?text=FULL+GEAR+UNIFORM'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Complete Officer Gear</h3>
+                    <p>Full PSIRA Grade A officer equipment package</p>
+                </div>
+            </div>
+            
+            <!-- Head Office -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/head-office.jpg" alt="Metro 50 Head Office" onerror="this.src='https://via.placeholder.com/800x600/1a3f5c/ffffff?text=HEAD+OFFICE'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Head Office</h3>
+                    <p>Stand No: 3351, Shayandima Zone 11, Limpopo Province, 0945</p>
+                </div>
+            </div>
+            
+            <!-- Quadbike Guard -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="500">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/quadbike-guard.jpg" alt="Guard on Quadbike" onerror="this.src='https://via.placeholder.com/800x600/9e2a2a/ffffff?text=QUAD+BIKE+PATROL'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Quad Bike Patrol Unit</h3>
+                    <p>High-mobility response for difficult terrain and rapid deployment next to patrol vehicle</p>
+                </div>
+            </div>
+            
+            <!-- Fleet Cars -->
+            <div class="showcase-card-full" data-aos="fade-up" data-aos-delay="600">
+                <div class="card-image-full" onclick="openLightbox(this)">
+                    <img src="assets/images/fleet-cars.jpg" alt="Company Fleet Vehicles" onerror="this.src='https://via.placeholder.com/800x600/1e3a5f/ffffff?text=FLEET+VEHICLES'">
+                    <div class="image-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Click to View</span>
+                    </div>
+                </div>
+                <div class="card-content-full">
+                    <h3>Armed Response Fleet</h3>
+                    <p>GPS-tracked vehicles with 24/7 monitoring and armed response capability</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== LIGHTBOX FOR IMAGE VIEWING ==================== -->
+<div class="lightbox" id="lightbox">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <span class="lightbox-prev" onclick="changeImage(-1)">&#10094;</span>
+    <span class="lightbox-next" onclick="changeImage(1)">&#10095;</span>
+    <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="">
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+</div>
+
+<!-- ==================== SERVICES OVERVIEW ==================== -->
+<section class="services-overview-section">
+    <div class="container">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">WHAT WE OFFER</span>
+            <h2 class="section-title">Comprehensive <span class="text-blue">Security Solutions</span></h2>
+            <p class="section-description">Tailored protection services for every risk environment</p>
+        </div>
+        
+        <div class="services-grid">
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-building-shield"></i>
+                </div>
+                <h3>Static Guarding</h3>
+                <p>24/7 uniformed PSIRA-certified officers for offices, factories, hospitals, schools, and construction sites.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="150">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-user-secret"></i>
+                </div>
+                <h3>VIP Protection</h3>
+                <p>Executive and diplomatic close protection in high-risk, volatile, and complex environments.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-door-open"></i>
+                </div>
+                <h3>Access Control</h3>
+                <p>Biometric systems, card access, and manned gate control with super-fast scanning technology.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="250">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>CCTV Monitoring</h3>
+                <p>AI-enhanced surveillance systems with 24/7 remote monitoring and instant alert response.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="300">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-motorcycle"></i>
+                </div>
+                <h3>Mobile Patrols</h3>
+                <p>Armed response units, quadbike patrols, and vehicle-based security for rapid deployment.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="service-card-modern" data-aos="fade-up" data-aos-delay="350">
+                <div class="service-icon-wrapper">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h3>Retail Security</h3>
+                <p>Loss prevention, undercover operations, and uniformed guards for retail environments.</p>
+                <a href="services.html" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== ABOUT PREVIEW SECTION ==================== -->
+<section class="about-preview-section">
+    <div class="container">
+        <div class="about-preview-grid">
+            <div class="about-preview-content" data-aos="fade-right">
+                <span class="section-subtitle">ABOUT METRO 50</span>
+                <h2 class="section-title">Black-Owned, <span class="text-red">Battle-Ready</span> Security</h2>
+                <p class="about-highlight">Operating across Limpopo, Gauteng, and high-risk zones since 2018.</p>
+                <p class="about-description">METRO 50 SECURITY SERVICE is committed to providing exceptional services by delivering personalized, high-quality, and cost-efficient solutions. We combine local expertise with PSIRA Grade A standards, legal firearms, and 24/7 emergency response capabilities.</p>
+                
+                <ul class="about-features">
+                    <li><i class="fas fa-check-circle"></i> PSIRA registered & firearm competent officers</li>
+                    <li><i class="fas fa-check-circle"></i> Women & youth employment focus</li>
+                    <li><i class="fas fa-check-circle"></i> SABS/SANS approved equipment & resources</li>
+                    <li><i class="fas fa-check-circle"></i> Operations in Thulamela, Vhembe, Sekhukhune & Pretoria</li>
+                </ul>
+                
+                <div class="about-buttons">
+                    <a href="about.html" class="btn btn-primary">Discover Our Mission</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+            
+            <div class="about-preview-image" data-aos="fade-left">
+                <div class="image-wrapper">
+                    <img src="assets/images/head-office.jpg" alt="Metro 50 Headquarters" onerror="this.src='https://via.placeholder.com/600x500/1a2b7c/ffffff?text=METRO+50+HQ'">
+                    <div class="experience-badge">
+                        <span class="years">7+</span>
+                        <span class="text">Years of Excellence</span>
+                    </div>
+                </div>
+                <div class="image-pattern"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== CTA SECTION ==================== -->
+<section class="cta-section">
+    <div class="cta-particles" id="particles"></div>
+    <div class="container">
+        <div class="cta-content" data-aos="zoom-in">
+            <h2>Protect What Matters <span class="text-red">Today</span></h2>
+            <p>Immediate deployment available • Free security assessment • 24/7 armed response</p>
+            <div class="cta-buttons-group">
+                <button class="btn btn-primary btn-large" id="ctaWhatsApp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: 076 272 2864
+                </button>
+                <a href="mailto:metro50sec@gmail.com" class="btn btn-email btn-large">
+                    <i class="far fa-envelope"></i> metro50sec@gmail.com
+                </a>
+            </div>
+            <div class="cta-contact-info">
+                <span><i class="fas fa-phone"></i> 015 004 0984</span>
+                <span><i class="fas fa-shield"></i> PSIRA Registered</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="Metro 50" onerror="this.style.display='none'">
+                        <span>METRO 50 SECURITY</span>
+                    </div>
+                    <p>Professional security services with physical and financial capacity to execute any work effectively. PSIRA registered, armed response, VIP protection.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="services.html">Static Guarding</a></li>
+                        <li><a href="services.html">VIP Protection</a></li>
+                        <li><a href="services.html">Access Control</a></li>
+                        <li><a href="services.html">CCTV Monitoring</a></li>
+                        <li><a href="services.html">Mobile Patrols</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Head Office</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Stand No: 3351, Shayandima Zone 11, Limpopo Province, 0945</li>
+                        <li><i class="fas fa-phone"></i> 015 004 0984</li>
+                        <li><i class="fas fa-mobile-alt"></i> 076 272 2864 / 082 470 9606</li>
+                        <li><i class="fas fa-envelope"></i> metro50sec@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2025 METRO 50 SECURITY SERVICES. All rights reserved. PSIRA Compliant. SABS/SANS Approved.</p>
+            <p class="created-by">Created by: <a href="https://www.lcdigitalsolution.co.za/" target="_blank">LC Digital Solution</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- ==================== BOOK NOW MODAL ==================== -->
+<div class="modal" id="bookModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+        <div class="modal-header">
+            <h3><i class="fas fa-shield-hal"></i> Request Security Service</h3>
+            <button class="modal-close" id="modalClose">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p class="modal-intro">Choose your preferred contact method for immediate assistance:</p>
+            <div class="modal-options">
+                <a href="https://wa.me/27672722864" target="_blank" class="modal-option whatsapp-option">
+                    <div class="option-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>WhatsApp Chat</h4>
+                        <p>Instant messaging with our operations team</p>
+                        <span>076 272 2864</span>
+                    </div>
+                </a>
+                <a href="mailto:metro50sec@gmail.com" class="modal-option email-option">
+                    <div class="option-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Email Inquiry</h4>
+                        <p>Send us a detailed request</p>
+                        <span>metro50sec@gmail.com</span>
+                    </div>
+                </a>
+                <a href="mailto:mbedziernestmagoda@gmail.com" class="modal-option email-option">
+                    <div class="option-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Director Email</h4>
+                        <p>Direct line to management</p>
+                        <span>mbedziernestmagoda@gmail.com</span>
+                    </div>
+                </a>
+                <a href="mailto:patriciabono87@gmail.com" class="modal-option email-option">
+                    <div class="option-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Operations Email</h4>
+                        <p>Operations department</p>
+                        <span>patriciabono87@gmail.com</span>
+                    </div>
+                </a>
+            </div>
+            <div class="modal-footer-note">
+                <i class="fas fa-clock"></i> We respond within minutes, 24/7
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
